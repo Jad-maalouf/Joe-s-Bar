@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurant Menu</h1>
+    </header>
+    <nav>
+        <button onclick="showSection('alcohol')">Alcohol</button>
+        <button onclick="showSection('food')">Food</button>
+        <button onclick="showSection('arguileh')">Arguileh</button>
+        <button onclick="showSection('beverages')">Beverages</button>
+        <button onclick="showSection('desserts')">Desserts</button>
+        <button onclick="showSection('appetizers')">Appetizers</button>
+        <button onclick="showSection('seafood')">Seafood</button>
+        <button onclick="showSection('steaks')">Steaks</button>
+        <button onclick="showSection('specials')">Specials</button>
+        <button onclick="showSection('vegan')">Vegan</button>
+    </nav>
+    <main>
+        <section id="alcohol" class="menu-section">
+            <h2>Alcohol</h2>
+            <div class="menu-columns">
+                <div class="column">
+                    <h3>Bottles</h3>
+                    <ul>
+                        <li>Beer - $5</li>
+                        <li>Wine - $20</li>
+                        <li>Whiskey - $50</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Glasses</h3>
+                    <ul>
+                        <li>Beer - $3</li>
+                        <li>Wine - $7</li>
+                        <li>Whiskey - $12</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="food" class="menu-section">
+            <h2>Food</h2>
+            <ul>
+                <li>Pasta</li>
+                <li>Burgers</li>
+                <li>Salads</li>
+            </ul>
+        </section>
+        <section id="arguileh" class="menu-section">
+            <h2>Arguileh</h2>
+            <ul>
+                <li>Mint</li>
+                <li>Apple</li>
+                <li>Grape</li>
+            </ul>
+        </section>
+        <section id="beverages" class="menu-section">
+            <h2>Beverages</h2>
+            <ul>
+                <li>Tea</li>
+                <li>Coffee</li>
+                <li>Juices</li>
+            </ul>
+        </section>
+        <section id="desserts" class="menu-section">
+            <h2>Desserts</h2>
+            <ul>
+                <li>Cheesecake</li>
+                <li>Brownie</li>
+                <li>Ice Cream</li>
+            </ul>
+        </section>
+        <section id="appetizers" class="menu-section">
+            <h2>Appetizers</h2>
+            <ul>
+                <li>Bruschetta</li>
+                <li>Stuffed Mushrooms</li>
+                <li>Garlic Bread</li>
+            </ul>
+        </section>
+        <section id="seafood" class="menu-section">
+            <h2>Seafood</h2>
+            <ul>
+                <li>Shrimp Scampi</li>
+                <li>Grilled Salmon</li>
+                <li>Lobster Tail</li>
+            </ul>
+        </section>
+        <section id="steaks" class="menu-section">
+            <h2>Steaks</h2>
+            <ul>
+                <li>Ribeye</li>
+                <li>Filet Mignon</li>
+                <li>T-bone</li>
+            </ul>
+        </section>
+        <section id="specials" class="menu-section">
+            <h2>Specials</h2>
+            <ul>
+                <li>Chef's Special</li>
+                <li>Seasonal Dish</li>
+                <li>Daily Soup</li>
+            </ul>
+        </section>
+        <section id="vegan" class="menu-section">
+            <h2>Vegan</h2>
+            <ul>
+                <li>Vegan Burger</li>
+                <li>Quinoa Salad</li>
+                <li>Vegan Tacos</li>
+            </ul>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
